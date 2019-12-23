@@ -1,4 +1,4 @@
-the following overloaded operations can be carried out any polynomial expressions where f is declared to be a Polynomial
+The following overloaded operations can be carried out any polynomial expressions where f is declared to be a Polynomial
 object:
 1. f(x) where x is a double, evaluates the polynomial f with the given x value; this is basically evaluate().
 2. f(g) where g is another Polynomial object, returns the Polynomial object representing the polynomial composition
