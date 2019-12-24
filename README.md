@@ -25,43 +25,20 @@ Input
 
 
 The program lines of text that are in groups of three. Each group of three lines represent one test case. The first two lines
-will contain a list of n + 1 integers an, an−1, . . . , a1, a0 which represent a set of coefficients of a polynomial of degree n. The
-coefficients are paired with the terms of the polynomial in the following manner:
-
-anx
-
-n + an−1x
-
-n−1 + · · · + a1x
-
-1 + a0x
-
-0
-
-The third line of text are the m + 1 values x0, x1, . . . , xm to be used for x when evaluating the first polynomial provided.
-
+will contain a list of n + 1 integers an, an−1, . . . , a1, a0 which represent a set of coefficients of a polynomial of degree n. 
 
 
 Sample Input
 
--2
-
-1 -1
-
-5 0 1 6
-
-7 6 -1
-
--1 1
-
-7 6 -1
-
-3 0 0 -4 0 2
-
--5 0 3 -11 4
-
-1 2 3 4 5
-
+    -2
+    1 -1
+    5 0 1 6
+    7 6 -1
+    -1 1
+    7 6 -1
+    3 0 0 -4 0 2
+    -5 0 3 -11 4
+    1 2 3 4 5
 
 
 Output
